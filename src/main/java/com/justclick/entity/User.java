@@ -21,8 +21,6 @@ public class User {
 	private String username;
 	@Column(name = "max_value")
 	private Integer maxValue;
-	@Column(name = "current_value")
-	private Integer currentValue;
 	
 	public Long getId() {
 		return id;
@@ -65,12 +63,6 @@ public class User {
 	}
 	public void setMaxValue(Integer maxValue) {
 		this.maxValue = maxValue;
-	}
-	public Integer getCurrentValue() {
-		return currentValue;
-	}
-	public void setCurrentValue(Integer currentValue) {
-		this.currentValue = currentValue;
 	}
 	
 	
