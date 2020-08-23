@@ -3,16 +3,16 @@
 Se hizo el despliegue de la base, ElasticSearch y el proyecto web en contenedores docker dentro de un
 VPS al cual se puede acceder en el siguiente link: <br />
 
-•	Spring Boot application: http://45.79.56.138:8001/link/{username}
-•	Elastic Search Container: http://45.79.56.138:9200/agent/_search
+•	Spring Boot application: http://45.79.56.138:8001/link/{username} <br />
+•	Elastic Search Container: http://45.79.56.138:9200/agent/_search <br />
 
 
-Se pueden utilizar los siguientes usuarios para las pruebas:
-•	sarmi1994
-•	smith1122
-•	maria1984
-•	cmartinez
-•	zulaym
+Se pueden utilizar los siguientes usuarios para las pruebas: <br />
+•	sarmi1994 <br />
+•	smith1122 <br />
+•	maria1984 <br />
+•	cmartinez <br />
+•	zulaym <br />
 
 
 ### `Creación de base de datos`
