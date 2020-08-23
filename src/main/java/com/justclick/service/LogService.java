@@ -100,9 +100,9 @@ public class LogService {
 				osType = "Unix";
 				osVersion = "Unknown";
 
-			} else if (userAgent.indexOf("android") >= 0) {
+			} else if (userAgent.indexOf("Android") >= 0) {
 				osType = "Android";
-				osVersion = "Unknown";
+				osVersion = userAgent.substring(userAgent.indexOf("Android ")+8, userAgent.indexOf("Android ")+13);
 			}
 			
 			// Browser type and Version

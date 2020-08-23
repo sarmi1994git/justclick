@@ -1,0 +1,10 @@
+version: '3'
+services:
+  kibana:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.9.0
+    restart: always
+    container_name: elastic-search
+    ports:
+      - "9200:9200"
+    environment:
+      - discovery.type=single-node
