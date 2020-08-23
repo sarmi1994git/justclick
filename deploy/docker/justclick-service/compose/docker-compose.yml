@@ -1,0 +1,14 @@
+version: '3'
+services:     
+  justclick-services:
+    build:
+      context: ../images
+      dockerfile: Dockerfile
+    image: justclick/java:1.0    
+    restart: always
+    ports:
+      - "8001:8000"
+    container_name: justclick-services
+    volumes:
+      - "/opt/tienda/justclick/justclick-service/config:/justclick/config"
+
